@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:id="@+id/zomato"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#C91F2C"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img1"
+                    android:elevation="0dp"
+                    android:src="@drawable/zomato"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:id="@+id/swiggy"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/img2"
+                    android:elevation="0dp"
+                    android:src="@drawable/swiggyfinal">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:id="@+id/foodpanda"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/foodpanda">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                android:id="@+id/kfc"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/firangibake">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:id="@+id/dominos"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#4F7591
+"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/dominoos">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:id="@+id/ovenstory"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/ovenstory">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:id="@+id/ubereats"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/ubereats">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                android:id="@+id/freshmenu"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/freshmenu">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                android:id="@+id/mojo"
+                app:cardBackgroundColor="#FFF"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="106dp"
+                    android:elevation="0dp"
+                    android:src="@drawable/mozopizza">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                android:id="@+id/mcdonalds"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/mcdonalds">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                android:id="@+id/behrouz"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:src="@drawable/behrouz">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#FFF"
+                android:id="@+id/foodcloud"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="106dp"
+                    android:elevation="0dp"
+                    android:src="@drawable/foodcloud">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
